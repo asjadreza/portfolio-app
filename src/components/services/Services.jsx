@@ -1,128 +1,170 @@
-import React from 'react'
-import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <h5>What I know</h5>
       <h2>Services</h2>
 
-      <div className='container services__container'>
-        <article className='service'>
-          <div className='service__head'>
-            <h3>ML/AI</h3>
+      <div className="container services__container">
+        <article className="service">
+          <div className="service__head">
+            <h3>Generative AI</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>I have interested in ML and data science.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Built custom AI agents using LangChain, LangGraph, and LangSmith
+                for task automation.
+              </p>
             </li>
-
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to identify patterns in data.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Automated workflows with third-party API integrations like
+                Slack, Notion, and HubSpot.
+              </p>
             </li>
-
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to build models and make predictions.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Developed conversational AI dashboards using Next.js, Redux, and
+                Python backends.
+              </p>
             </li>
-
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to evaluate models for accuracy.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Created RAG-based data agents with vector search using Pinecone
+                and FAISS.
+              </p>
             </li>
-
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to work with large dataset.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Deployed AI-powered SaaS prototypes combining Next.js frontend
+                and LangChain backend.
+              </p>
             </li>
           </ul>
         </article>
 
         {/* End of UI/UX Design */}
 
-        <article className='service'>
-          <div className='service__head'>
-            <h3>Web Development</h3>
+        <article className="service">
+          <div className="service__head">
+            <h3>Frontend Development</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>I enjoy building web applications.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Build responsive, high-performance web apps using Next.js,
+                React.js, and Redux.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>I have learned MERN Stack development.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Design dynamic UIs with smooth interactions and optimized user
+                experiences.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to work with React components, useState management.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Upgrade and migrate existing applications, improving
+                performance, maintainability, and UI consistency.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Also have ability to work with React hooks, React reducers, routing etc.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Integrate REST APIs and manage state efficiently using Redux and
+                TypeScript.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>I also know HTML, CSS, and JavaScript.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Develop SEO-friendly, cross-browser compatible, and fully
+                responsive front-end solutions.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>I have done loads of project using these skills.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Implement custom components and animations to enhance engagement
+                and user retention.
+              </p>
             </li>
           </ul>
         </article>
 
         {/* End Web Development */}
 
-        <article className='service'>
-          <div className='service__head'>
-            <h3>Android Development</h3>
+        <article className="service">
+          <div className="service__head">
+            <h3>Backend Development</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Also having interested in building mobile apps.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Develop and deploy scalable RESTful APIs using Node.js, Express,
+                PostgreSQL and Prisma.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Have learned to work with android studio.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Implement secure user authentication and authorization with JWT,
+                bcrypt and protected routes.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to work with lots of activities, Views, layouts.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Build file upload and storage solutions using Multer, Cloudinary
+                and efficient file handling.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to work with recycler view, fragments, model and adapter class</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Design and manage relational database schemas and migrations
+                with PostgreSQL and Prisma ORM.
+              </p>
             </li>
 
             <li>
-              <BiCheck className='service__list-icon' />
-              <p>Ability to work with firebase and real-time databases.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Create full backend systems for media management: upload,
+                browse, like/unlike, CRUD operations.
+              </p>
             </li>
           </ul>
         </article>
 
         {/* End of Android Development */}
-        
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
